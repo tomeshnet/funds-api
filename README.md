@@ -18,7 +18,7 @@ This is a light-weight HTTP request handler to interact with the [Stripe Python 
 1. Set the environment variable `STRIPE_SECRET`:
 
     ```
-    $ STRIPE_SECRET=YOUR_STRIPE_SECRET_KEY
+    $ export STRIPE_SECRET=YOUR_STRIPE_SECRET_KEY
     ```
 
 1. Clone this repository and run the API server in background:
@@ -53,7 +53,7 @@ Assuming the website is served by an Apache HTTP server on the same host...
 1. Restart Apache:
 
     ```
-    service apache2 restart
+    # service apache2 restart
     ```
 
 1. Try listing the account balance:
